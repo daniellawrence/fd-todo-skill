@@ -350,7 +350,7 @@ move_todo() {
     
     # Create git commit if moving to done state and in a git repository
     if [[ "$to_state" == "done" ]]; then
-        create_commit_for_task "$full_path" "$filename"
+        create_commit_for_task "$dest_dir/$filename" "$filename"
     fi
 }
 
