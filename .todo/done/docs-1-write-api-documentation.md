@@ -1,7 +1,7 @@
 ---
 id: docs-1
 type: docs
-status: plan
+status: done
 description: write-api-documentation
 priority: medium
 agent_optimized: true
@@ -16,7 +16,7 @@ TODO: Add task details here.
 
 ## Acceptance Criteria
 
-- [ ] Create acceptance criteria for this task
+- [x] Create acceptance criteria for this task
 
 ## Notes for Agent
 

@@ -127,7 +127,6 @@ Every time a task is moved to **done** state, the system automatically creates a
 **Commit Message Format:** `Complete: <description> (#<id>)`
 
 *Note: Commits are only created when in a git repository and when files have changes.*
-```
 
 ### Show Status
 ```bash
