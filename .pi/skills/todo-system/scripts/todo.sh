@@ -365,11 +365,11 @@ create_commit_for_task() {
         return 0
     fi
     
-    # Add the completed task file to staging
-    git add "$filepath" > /dev/null 2>&1
+    # Stage all changes first to ensure file is tracked
+    git add . > /dev/null 2>&1
     
     if [[ $? -ne 0 ]]; then
-        echo "  (Git add failed, skipping commit)"
+        echo "  (Git staging failed, skipping commit)"
         return 0
     fi
     
