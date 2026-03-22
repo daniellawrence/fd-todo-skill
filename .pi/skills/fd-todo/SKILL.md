@@ -1,5 +1,5 @@
 ---
-name: todo-system
+name: fd-todo
 description: File-based TODO system for agents. List, create, get details, and move tasks between plan/doing/done states using markdown files with YAML frontmatter. Optimized for quick scanning without reading full content.
 ---
 
@@ -59,6 +59,7 @@ Examples:
 
 # Auto-commit on completion (enabled by default for done state)
 /skill:todo move <file> done    # Creates git commit when moving to done
+/skill:todo worker              # Processes all tasks with auto-commits
 
 # Show overview status
 /skill:todo status

@@ -513,7 +513,7 @@ worker() {
         fi
     elif (( completed > 0 )); then
         echo "All tasks have been processed!"
-        bash .pi/skills/todo-system/scripts/todo.sh status
+        bash .pi/skills/fd-todo/scripts/todo.sh status
     fi
     
     echo ""
